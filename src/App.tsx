@@ -57,9 +57,6 @@ function App() {
       // ブロックの初期化（画面全体を覆うように）
       const brickWidth = 80;  // 960/12 = 80（12列のブロック）
       const brickHeight = 36; // 540/15 = 36（15行のブロック）
-      const brickPadding = 0;
-      const brickOffsetTop = 0;
-      const brickOffsetLeft = 0;
 
       // 画面を完全に覆うために必要な行数と列数を計算
       const brickColumnCount = Math.ceil(canvas.width / brickWidth);
